@@ -46,7 +46,7 @@ The package used to include a default ```client_secrets.json``` file. It does no
 * Side menu: _APIs & auth_ -> _Credentials_.
 * _Create a Client ID_: Add credentials -> OAuth 2.0 Client ID -> Other -> Name: youtube-upload -> Create -> OK
 * _Download JSON_: Under the section "OAuth 2.0 client IDs". Save the file to your local system. 
-* Use this JSON as your credentials file: `--client-secrets=CLIENT_SECRETS` or copy it to `~/client_secrets.json`.
+* Use this JSON as your credentials file: `--client-secrets=CLIENT_SECRETS` or copy it to `~/.client_secrets.json`.
 
 *Note: ```client_secrets.json``` is a file you can download from the developer console, the credentials file is something auto generated after the first time the script is run and the google account sign in is followed, the file is stored at ```~/.youtube-upload-credentials.json```.*
 
